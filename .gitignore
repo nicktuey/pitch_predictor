@@ -1,2 +1,3 @@
 .env
 Predictor_csvs/
+clean_data.csv
