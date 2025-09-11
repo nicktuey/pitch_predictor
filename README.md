@@ -41,7 +41,7 @@ Output Layer: 1 neuron + Sigmoid activation
 ## Data Pipeline
 
 ### 1. Data Collection (`dataclean.ipynb`)
-- Connects to Private NCAA Trackman database
+- Connects to Private NCAA Trackman Database
 - Extracts pitcher-specific data (currently configured for Kyle McCoy)
 - Features: Pitcher, TaggedPitchType, PitchCall, Balls, Strikes, RelSpeed, PitcherThrows, BatterSide
 
@@ -82,6 +82,5 @@ pip install torch pandas numpy matplotlib seaborn scikit-learn mysql-connector-p
 
 - **LTSM Model**: Create an LTSM to create more accurate predictions based on longer sequences of pitches
 - **Simplified Previous Pitch**: Predict using two pitch groups (FB and OS which group breaking balls into offspeed pitches) similarly to how the output is either FB or OS
-
 
 
